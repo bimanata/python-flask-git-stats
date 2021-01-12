@@ -1,0 +1,7 @@
+Flask_RESTful==0.3.8
+boto3==1.12.14
+Flask==1.1.1
+requests==2.23.0
+pandas==1.0.3
+Flask_Cors==3.0.8
+python-dotenv==0.15.0
