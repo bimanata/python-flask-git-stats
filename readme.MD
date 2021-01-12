@@ -31,6 +31,8 @@ On top of that the application is also enable to send the csv report onto S3 buc
 	"output" : "s3"
     }
     ```
+* Repository name format: orgname/repository or username/repository
+
 4. Output input are csv if you want to generate it only to local folder, or using S3 if you want to push it to S3 bucket (access key and bucket name are provided by yourself)
 
 ### Run as Python
@@ -59,5 +61,6 @@ You can run the Python dependencies library first before run the python applicat
 	"output" : "csv"
     }
     ```
+* Repository name format: orgname/repository or username/repository
 
 4. Output input are csv if you want to generate it only to local folder, or using S3 if you want to push it to S3 bucket (access key and bucket name are provided by yourself)
