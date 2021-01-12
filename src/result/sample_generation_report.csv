@@ -1,0 +1,3 @@
+owner,repository,github_response_code,message,clone_url,latest_commit,latest_commit_author,commit_message
+aa,bb,404,repo not found / not authorize,-,-,-,-
+bb,aa,404,repo not found / not authorize,-,-,-,-
