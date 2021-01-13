@@ -28,10 +28,11 @@ On top of that the application is also enable to send the csv report onto S3 buc
    ```sh
    {
 	"repository" : ["aa/bb","bimanata/sampletestaah"],
-	"output" : "s3"
+	"output" : "csv"
     }
     ```
 * Repository name format: orgname/repository or username/repository
+* output type csv and s3 
 
 4. Output input are csv if you want to generate it only to local folder, or using S3 if you want to push it to S3 bucket (access key and bucket name are provided by yourself)
 
@@ -62,5 +63,6 @@ You can run the Python dependencies library first before run the python applicat
     }
     ```
 * Repository name format: orgname/repository or username/repository
+* output type csv and s3 
 
 4. Output input are csv if you want to generate it only to local folder, or using S3 if you want to push it to S3 bucket (access key and bucket name are provided by yourself)
